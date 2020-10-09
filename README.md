@@ -1,8 +1,8 @@
 # XmlParse
-## Parse XML with SweetXML
+## SweetXML Tips
 
 ## Reference Video
-[https://youtu.be/2u05qnn_DjI](https://youtu.be/2u05qnn_DjI)
+[https://youtu.be/yPm8en3SH5k](https://youtu.be/yPm8en3SH5k)
 
 ## Learn more
 
