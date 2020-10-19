@@ -21,7 +21,8 @@ defmodule XmlParse.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:sweet_xml, "~> 0.6.6"}
+      {:sweet_xml, "~> 0.6.6"},
+      {:saxy, "~> 1.2.2"}
     ]
   end
 end
