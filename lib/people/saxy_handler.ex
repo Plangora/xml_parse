@@ -26,7 +26,7 @@ defmodule XmlParse.People.SaxyHandler do
   end
 
   def handle_event(:end_element, _element, state),
-      do: {:ok, %{state | current_field: nil}}
+    do: {:ok, %{state | current_field: nil}}
 
   def handle_event(:characters, chars, %{current_field: :name} = state) do
     {:ok, %{state | current_person: %{state.current_person | name: chars}}}

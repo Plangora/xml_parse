@@ -16,8 +16,7 @@ defmodule XmlParse.People do
 
   @spec saxy_parse(String.t()) :: [Person.t()]
   def saxy_parse(xml_string) do
-    {:ok, people} =
-      Saxy.parse_string(xml_string, XmlParse.People.SaxyHandler, nil)
+    {:ok, people} = Saxy.parse_string(xml_string, XmlParse.People.SaxyHandler, nil)
     people
   end
 end

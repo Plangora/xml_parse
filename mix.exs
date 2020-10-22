@@ -21,6 +21,7 @@ defmodule XmlParse.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:benchee, "~> 1.0.1", only: :dev},
       {:sweet_xml, "~> 0.6.6"},
       {:saxy, "~> 1.2.2"}
     ]
