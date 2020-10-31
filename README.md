@@ -1,8 +1,8 @@
 # XmlParse
-## Benchmark XML Parsing
+## Parse XML with NIF
 
 ## Reference Video
-[https://youtu.be/uHWcJzDLCe8](https://youtu.be/uHWcJzDLCe8)
+[https://youtu.be/lm_6WzWazjU](https://youtu.be/lm_6WzWazjU)
 
 ## Learn more
 

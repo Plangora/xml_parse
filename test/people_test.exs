@@ -20,4 +20,9 @@ defmodule XmlParse.PeopleTest do
     assert [%Person{name: "Bob", age: 20}, %Person{name: "Jane", age: 18}] ==
              People.saxy_parse(xml_data)
   end
+
+  test "nif works just fine", %{xml: xml_data} do
+    assert [%Person{name: "Bob", age: 20}, %Person{name: "Jane", age: 18}] ==
+             People.nif_parse(xml_data)
+  end
 end

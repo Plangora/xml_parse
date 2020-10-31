@@ -25,3 +25,6 @@ xml_parse-*.tar
 # IntelliJ
 *.iml
 .idea/*
+
+# NIF related
+priv/native/*

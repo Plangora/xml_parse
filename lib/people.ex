@@ -19,4 +19,9 @@ defmodule XmlParse.People do
     {:ok, people} = Saxy.parse_string(xml_string, XmlParse.People.SaxyHandler, nil)
     people
   end
+
+  @spec nif_parse(String.t()) :: [Person.t()]
+  def nif_parse(xml_string) do
+    XmlParse.Native.parse(xml_string)
+  end
 end
