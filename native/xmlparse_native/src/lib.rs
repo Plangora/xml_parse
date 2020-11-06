@@ -9,7 +9,7 @@ struct Person {
     age: i64,
 }
 
-#[rustler::nif]
+#[rustler::nif(schedule = "DirtyCpu")]
 fn parse(xml_data: String) -> NifResult<Vec<Person>> {
     let parser = parser::Parser::default();
     let doc = parser.parse_string(xml_data).unwrap();
